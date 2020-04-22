@@ -2,6 +2,8 @@
 
 Data Ventures uses aggregated and anonymised cellphone data to estimate the amount of mobility within regional councils, or based on categories such as recreation, retail, workplace areas. This README briefly outlines how we developed our mobility index and the repository includes our code for data released on mobility for a week in lockdown relative to the week before, or relative to a similar period in 2019.
 
+**NB:** If you are looking for the deprecated methodology used in the easter report, the repo can still be found [here](https://github.com/dataventuresnz/easter-mobility-index).
+
 ## Upcoming changes
 
 Currently our method is essentially the percentage of domestic visitors (people outside their home neighbourhood) in an hour. However, we are currently developing a new method which will use the maximum minus the minimum popultion count in an area for a day. This repository and README will be updated to reflect any change in methodology.
@@ -26,6 +28,6 @@ We identified six categories which we report alongside regional council data: Re
 
 * We average the remaining percentages of domestic visitors to get a daily percentage
 
-* We calculate the percentage difference between the observed week and a baseline (either the preceeding week or an average weeek from 2019).
+* We calculate the percentage difference between each day of the observed week and a baseline (either the preceeding week or an average week from 2019).
 
-* We then average the daily percentage differences to get a single mobility measure for a week in each region or category.
+* We then average the seven daily percentage differences to get a single mobility measure for a week in each region or category.
