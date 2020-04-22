@@ -29,5 +29,3 @@ We identified six categories which we report alongside regional council data: Re
 * We calculate the percentage difference between the observed week and a baseline (either the preceeding week or an average weeek from 2019).
 
 * We then average the daily percentage differences to get a single mobility measure for a week in each region or category.
-
-and then we multiplied the proportion by 100 to make the result look more index-like. We then calculate the percentage difference in the proportions of domestic travellers during Easter to the previous week or to the previous Easter.
