@@ -18,4 +18,16 @@ We identified six categories which we report alongside regional council data: Re
 
 ## Converting aggregated counts to create a mobility index
 
-The proportion of domestic travellers is eastimates at a regional council or category level, i.e., domestic / (local + domestic) and then we multiplied the proportion by 100 to make the result look more index-like. We then calculate the percentage difference in the proportions of domestic travellers during Easter to the previous week or to the previous Easter.
+* The proportion of domestic travellers is eastimated at a regional council or category level, i.e., domestic / (local + domestic) for each hour.
+
+* We remove oceanic or inlet SA2s which sometimes have people misallocated into waterbodies which adds noise to the data.
+
+* We remove estimates from midnight until and including 4am because we determined that estimates over this period have reasonable noise due to a reduced likelihood of devices to show activity.
+
+* We average the remaining percentages of domestic visitors to get a daily percentage
+
+* We calculate the percentage difference between the observed week and a baseline (either the preceeding week or an average weeek from 2019).
+
+* We then average the daily percentage differences to get a single mobility measure for a week in each region or category.
+
+and then we multiplied the proportion by 100 to make the result look more index-like. We then calculate the percentage difference in the proportions of domestic travellers during Easter to the previous week or to the previous Easter.
