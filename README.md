@@ -20,7 +20,7 @@ We identified six categories which we report alongside regional council data: Re
 
 ## Converting aggregated counts to create a mobility index
 
-* The proportion of domestic travellers is eastimated at a regional council or category level, i.e., domestic / (local + domestic) for each hour.
+* The proportion of domestic travellers is estimated at a regional council or category level, i.e., domestic / (local + domestic) for each hour.
 
 * We remove oceanic or inlet SA2s which sometimes have people misallocated into waterbodies which adds noise to the data.
 
