@@ -2,7 +2,7 @@
 
 Data Ventures uses aggregated and anonymised cellphone data to estimate the amount of mobility within regional councils, or based on categories such as recreation, retail, workplace areas. This README briefly outlines how we developed our mobility index and the repository includes our code for data released on mobility for a week in lockdown relative to the week before, or relative to a similar period in 2019.
 
-**NB:** If you arel
+**NB:** If you are looking for the deprecated methodology used in the easter report, the repo can still be found [here](https://github.com/dataventuresnz/easter-mobility-index).
 
 ## Upcoming changes
 
