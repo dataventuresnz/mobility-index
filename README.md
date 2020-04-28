@@ -20,14 +20,14 @@ We identified six categories which we report alongside regional council data: Re
 
 ## Converting aggregated counts to create a mobility index
 
-* The proportion of domestic travellers is eastimated at a regional council or category level, i.e., domestic / (local + domestic) for each hour.
-
 * We remove oceanic or inlet SA2s which sometimes have people misallocated into waterbodies which adds noise to the data.
 
 * We remove estimates from midnight until and including 4am because we determined that estimates over this period have reasonable noise due to a reduced likelihood of devices to show activity.
 
-* We average the remaining percentages of domestic visitors to get a daily percentage
+* We then subtract the minimum population from the maximum population count in a given day for an SA2.
 
-* We calculate the percentage difference between each day of the observed week and a baseline (either the preceeding week or an average week from 2019).
+* We sum the deltas' in each SA2 for each category or regional council to get an overall mobility measure for the area.
 
-* We then average the seven daily percentage differences to get a single mobility measure for a week in each region or category.
+* We calculate the percentage difference between each day of the observed week and an average week from 2019 (we then use this for our mobility plots).
+
+* We then average the seven daily percentage differences to get a single mobility measure for a week in each region or category (this is used for our tables at the end of each report).
