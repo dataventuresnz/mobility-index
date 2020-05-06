@@ -4,10 +4,6 @@ Data Ventures uses aggregated and anonymised cellphone data to estimate the amou
 
 **NB:** If you are looking for the deprecated methodology used in the easter report, the repo can still be found [here](https://github.com/dataventuresnz/easter-mobility-index).
 
-## Upcoming changes
-
-Currently our method is essentially the percentage of domestic visitors (people outside their home neighbourhood) in an hour. However, we are currently developing a new method which will use the maximum minus the minimum popultion count in an area for a day. This repository and README will be updated to reflect any change in methodology.
-
 ## Overview of the repository
 
 A lot of the method is now implemented within SQL so we have included two sample scripts which give suffcient information around the business rules we are implementing while cleaning and aggregating the data. The `baseline_comparisons.R` script then uses some SQL wrappers to pull the data into R and estimate an overall mobility measure.
