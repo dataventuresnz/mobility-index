@@ -9,20 +9,21 @@ library(ventuRes)
 library(lubridate)
 library(RPostgreSQL)
 library(cowplot)
+library(extrafont)
 
 source("functions.R")
 
 ## Variables
+db = Sys.getenv("PGS.DB.PROD")
 
 #Folder suffix
-TIMESTAMP <- "20200427"
+TIMESTAMP <- "20200517"
 
 dir.create(file.path(getwd(), paste0("outputs/report_", TIMESTAMP)), showWarnings = FALSE)
 
 #Set end of week period
 epoch <- 13
-#period_end <- floor_date(Sys.Date(), "week")
-period_end <- as.Date("2020-04-27")
+period_end <- floor_date(Sys.Date(), "week")
 
 period_start <- period_end - days(epoch)
 
@@ -36,8 +37,12 @@ source("make_output_data.R")
 
 ########################################## Make plots ----------------------
 
+source("plots/national_plots.R")
+
 source("plots/sparkline_plots.R")
 
 source("plots/week_plots.R")
 
 source("plots/mobility_plots.R")
+
+source("plots/mobility_dots.R")

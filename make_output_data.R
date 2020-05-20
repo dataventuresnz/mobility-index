@@ -1,18 +1,42 @@
 
+############### National data ---------------------
+get_range(start='2020-03-15 00:00:00',
+          end=paste(period_end, "23:00:00"), 
+          segment=TRUE) %>%
+  as_tibble() %>%
+  filter(hour(timestamp) == 12) %>%
+  mutate(days = as.Date(timestamp)) %>%
+  write_csv(paste0("outputs/report_", TIMESTAMP, "/national_data.csv"))
+
+mobility_baseline_national <- get_mobility(conc = "national") %>%
+  as_tibble() %>%
+  filter(year(days) == 2019) %>%
+  mutate(dow = wday(days, label=TRUE, week_start = getOption("lubridate.week.start", 1))) %>%
+  group_by(dow) %>%
+  summarise(minmax_baseline = mean(minmax))
+
+get_mobility(conc = "national", period = '2020-03-15') %>%
+  as_tibble() %>%
+  mutate(dow = wday(days, label=TRUE, week_start = getOption("lubridate.week.start", 1))) %>%
+  left_join(mobility_baseline_national, by="dow") %>%
+  mutate(mobility = round((minmax - minmax_baseline) / minmax_baseline * 100, 2)) %>%
+  select(days, mobility) %>%
+  write_csv(paste0("outputs/report_", TIMESTAMP, "/mobility_national_data.csv"))
+
 ############### Sparkline data ---------------------
-get_range(start='2020-03-15 01:00:00',
+get_range(start='2020-03-15 00:00:00',
                  end=paste(period_end, "23:00:00")) %>%
   as_tibble() %>%
   na.omit() %>%
   filter(sa2_type != "Unclassified") %>%
   ## Scale values so the same y-axis wont squish everything
   group_by(sa2_type) %>%
-  mutate(pop_scaled = as.numeric(scale(pop))) %>%
+  mutate(pop_scaled = round(as.numeric(scale(pop)), 2)) %>%
   select(-pop) %>%
   write_csv(paste0("outputs/report_", TIMESTAMP, "/sparkline_data.csv"))
 
 ############### Week plots ---------------------
-latest_weeks <- get_range(start=paste(period_start, "01:00:00"),
+latest_weeks <- get_range(start=paste(period_start, "00:00:00"),
                           end=paste(period_end, "23:00:00")) %>%
   as_tibble() %>%
   na.omit() %>%
@@ -31,7 +55,7 @@ latest_weeks <- get_range(start=paste(period_start, "01:00:00"),
     ) %>%
   select(sa2_type, timestamp, measure, day, hour, pop)
 
-ref_year <- get_range(start=paste(period_start - days(365 + 7), "01:00:00"),
+ref_year <- get_range(start=paste(period_start - days(365 + 7), "00:00:00"),
                       end=paste(period_end - days(365 - 7), "23:00:00")) %>%
   as_tibble() %>%
   na.omit() %>%
@@ -51,7 +75,7 @@ ref_year <- get_range(start=paste(period_start - days(365 + 7), "01:00:00"),
 bind_rows(latest_weeks,
           ref_year) %>%
   group_by(sa2_type) %>%
-  mutate(pop_scaled = as.numeric(scale(pop, center=FALSE))) %>%
+  mutate(pop_scaled = round(as.numeric(scale(pop, center=FALSE)), 2)) %>%
   select(-pop) %>%
   ungroup() %>%
   write_csv(paste0("outputs/report_", TIMESTAMP, "/week_comparison_data.csv"))
@@ -73,7 +97,7 @@ get_mobility(conc = "sa2_type", period = '2020-01-01') %>%
   filter(days > as.Date("2020-03-01") & sa2_type != "Unclassified") %>%
   mutate(dow = wday(days, label=TRUE, week_start = getOption("lubridate.week.start", 1))) %>%
   left_join(mobility_baseline_categories, by=c("sa2_type", "dow")) %>%
-  mutate(mobility = (minmax - minmax_baseline) / minmax_baseline * 100) %>%
+  mutate(mobility = round((minmax - minmax_baseline) / minmax_baseline * 100, 2)) %>%
   select(days, sa2_type, mobility) %>%
   write_csv(paste0("outputs/report_", TIMESTAMP, "/mobility_category_data.csv"))
 
@@ -90,12 +114,12 @@ get_mobility(conc = "council", period = '2020-01-01') %>%
   filter(days > as.Date("2020-03-01")) %>%
   mutate(dow = wday(days, label=TRUE, week_start = getOption("lubridate.week.start", 1))) %>%
   left_join(mobility_baseline_councils, by=c("regc2018_name", "dow")) %>%
-  mutate(mobility = (minmax - minmax_baseline) / minmax_baseline * 100) %>%
+  mutate(mobility = round((minmax - minmax_baseline) / minmax_baseline * 100, 2)) %>%
   select(days, regc2018_name, mobility) %>%
   write_csv(paste0("outputs/report_", TIMESTAMP, "/mobility_council_data.csv"))
 
 ############### Weekly dot plots ---------------------
-weekly_mobility_by_week <- get_mobility("councils") %>%
+weekly_mobility_by_week <- get_mobility("council") %>%
   as_tibble() %>%
   filter(between(days, period_start, period_end)) %>%
   mutate(measure = ifelse(days %in% unique(days)[1:(length(unique(days))/2)],
@@ -108,7 +132,7 @@ weekly_mobility_by_week <- get_mobility("councils") %>%
          comparison = "previous_week") %>%
   select(comparison, regc2018_name, mobility)
 
-weekly_mobility_by_year <- get_mobility("councils") %>%
+weekly_mobility_by_year <- get_mobility("council") %>%
   as_tibble() %>%
   mutate(measure = case_when(
     between(days, period_start - days(365 + 7), period_end - days(365 - 7)) ~ "baseline_week",
