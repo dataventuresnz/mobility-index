@@ -18,7 +18,7 @@ We identified six categories which we report alongside regional council data: Re
 
 * We remove oceanic or inlet SA2s which sometimes have people misallocated into waterbodies which adds noise to the data.
 
-* We remove estimates from midnight until and including 4am because we determined that estimates over this period have reasonable noise due to a reduced likelihood of devices to show activity.
+* We remove estimates from 2am until and including 4am because we determined that estimates over this period have reasonable noise due to a reduced likelihood of devices to show activity.
 
 * We then subtract the minimum population from the maximum population count in a given day for an SA2.
 
