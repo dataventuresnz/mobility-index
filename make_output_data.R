@@ -6,7 +6,7 @@ get_range(start='2020-03-15 00:00:00',
   as_tibble() %>%
   filter(hour(timestamp) == 12) %>%
   mutate(days = as.Date(timestamp)) %>%
-  write_csv(paste0("outputs/report_", TIMESTAMP, "/national_data.csv"))
+  write_csv(paste0("outputs/report_", TIMESTAMP, "/data/national_data.csv"))
 
 mobility_baseline_national <- get_mobility(conc = "national") %>%
   as_tibble() %>%
@@ -21,7 +21,7 @@ get_mobility(conc = "national", period = '2020-03-15') %>%
   left_join(mobility_baseline_national, by="dow") %>%
   mutate(mobility = round((minmax - minmax_baseline) / minmax_baseline * 100, 2)) %>%
   select(days, mobility) %>%
-  write_csv(paste0("outputs/report_", TIMESTAMP, "/mobility_national_data.csv"))
+    write_csv(paste0("outputs/report_", TIMESTAMP, "/data/mobility_national_data.csv"))
 
 ############### Sparkline data ---------------------
 get_range(start='2020-03-15 00:00:00',
@@ -33,7 +33,7 @@ get_range(start='2020-03-15 00:00:00',
   group_by(sa2_type) %>%
   mutate(pop_scaled = round(as.numeric(scale(pop)), 2)) %>%
   select(-pop) %>%
-  write_csv(paste0("outputs/report_", TIMESTAMP, "/sparkline_data.csv"))
+  write_csv(paste0("outputs/report_", TIMESTAMP, "/data/sparkline_data.csv"))
 
 ############### Week plots ---------------------
 latest_weeks <- get_range(start=paste(period_start, "00:00:00"),
@@ -78,7 +78,7 @@ bind_rows(latest_weeks,
   mutate(pop_scaled = round(as.numeric(scale(pop, center=FALSE)), 2)) %>%
   select(-pop) %>%
   ungroup() %>%
-  write_csv(paste0("outputs/report_", TIMESTAMP, "/week_comparison_data.csv"))
+  write_csv(paste0("outputs/report_", TIMESTAMP, "/data/week_comparison_data.csv"))
 
 rm(ref_year, latest_weeks)
 
@@ -99,7 +99,7 @@ get_mobility(conc = "sa2_type", period = '2020-01-01') %>%
   left_join(mobility_baseline_categories, by=c("sa2_type", "dow")) %>%
   mutate(mobility = round((minmax - minmax_baseline) / minmax_baseline * 100, 2)) %>%
   select(days, sa2_type, mobility) %>%
-  write_csv(paste0("outputs/report_", TIMESTAMP, "/mobility_category_data.csv"))
+  write_csv(paste0("outputs/report_", TIMESTAMP, "/data/mobility_category_data.csv"))
 
 ## Councils
 mobility_baseline_councils <- get_mobility(conc = "council") %>%
@@ -116,7 +116,7 @@ get_mobility(conc = "council", period = '2020-01-01') %>%
   left_join(mobility_baseline_councils, by=c("regc2018_name", "dow")) %>%
   mutate(mobility = round((minmax - minmax_baseline) / minmax_baseline * 100, 2)) %>%
   select(days, regc2018_name, mobility) %>%
-  write_csv(paste0("outputs/report_", TIMESTAMP, "/mobility_council_data.csv"))
+  write_csv(paste0("outputs/report_", TIMESTAMP, "/data/mobility_council_data.csv"))
 
 ############### Weekly dot plots ---------------------
 weekly_mobility_by_week <- get_mobility("council") %>%
@@ -170,4 +170,4 @@ bind_rows(
                                 )
          ) %>%
   arrange(comparison, regc2018_name) %>%
-  write_csv(paste0("outputs/report_", TIMESTAMP, "/mobility_weekly_data.csv"))
+  write_csv(paste0("outputs/report_", TIMESTAMP, "/data/mobility_weekly_data.csv"))
