@@ -25,7 +25,7 @@ showtext_auto(enable=TRUE)
 db = Sys.getenv("PGS.DB.PROD")
 
 #Folder suffix
-TIMESTAMP <- "20200607"
+TIMESTAMP <- "20200614"
 
 
 subfolders = c(
@@ -34,8 +34,7 @@ subfolders = c(
   "mobility-dot-plot",
   "mobility-regions",
   "national-overview",
-  "sparklines",
-  "data"
+  "sparklines"
 )
 
 dir.create(file.path(getwd(), paste0("outputs/report_", TIMESTAMP)), showWarnings = FALSE)
@@ -43,6 +42,8 @@ dir.create(file.path(getwd(), paste0("outputs/report_", TIMESTAMP)), showWarning
 for (folder in subfolders){
   dir.create(file.path(getwd(), paste0("outputs/report_", TIMESTAMP,"/",folder)), showWarnings = FALSE)
 }
+
+dir.create(file.path(getwd(), paste0("outputs/data_", TIMESTAMP)), showWarnings = FALSE)
 
 #Set end of week period
 epoch <- 13
@@ -52,6 +53,27 @@ period_start <- period_end - days(epoch)
 
 #End of week
 eow <- wday(period_end)
+
+#######################################          levels
+
+bordersclose = ymd("2020-03-19")
+lv2start = ymd("2020-03-21")
+lv3start = ymd("2020-03-23")
+lv4start = ymd("2020-03-25")
+lv4end = ymd("2020-04-28")
+lv3end = ymd("2020-05-14")
+lv2end = ymd("2020-06-09")
+
+past_levels = c(bordersclose,
+                lv2start,
+                lv3start,
+                lv4start,
+                lv4end,
+                lv3end)
+
+past_levels=tibble(past_levels)
+
+current_level = lv2end
 
 ########################################## Make data ----------------------
 

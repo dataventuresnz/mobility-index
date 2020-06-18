@@ -12,11 +12,11 @@ changelabels <- function(label){
   return(newlabel)
 }
 
-week_comparison <- read_csv(paste0("outputs/report_", TIMESTAMP, "/data/week_comparison_data.csv")) %>%
+week_comparison <- read_csv(paste0("outputs/data_", TIMESTAMP, "/week_comparison_data.csv")) %>%
   filter(measure != "baseline_year")%>%
   mutate(measure=unname(sapply(measure,changelabels)))
 
-year_comparison <- read_csv(paste0("outputs/report_", TIMESTAMP, "/data/week_comparison_data.csv")) %>%
+year_comparison <- read_csv(paste0("outputs/data_", TIMESTAMP, "/week_comparison_data.csv")) %>%
   filter(measure != "baseline_week")%>%
   mutate(measure=unname(sapply(measure,changelabels)))
 

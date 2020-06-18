@@ -1,0 +1,1121 @@
+days,regc2018_name,mobility
+2020-03-02,Auckland Region,29.8
+2020-03-02,Bay of Plenty Region,15.74
+2020-03-02,Canterbury Region,17.48
+2020-03-02,Gisborne Region,-2.32
+2020-03-02,Hawke's Bay Region,26.72
+2020-03-02,Manawatu-Wanganui Region,22.13
+2020-03-02,Marlborough Region,28.27
+2020-03-02,Nelson Region,13.97
+2020-03-02,Northland Region,-5.9
+2020-03-02,Otago Region,16.72
+2020-03-02,Southland Region,7.91
+2020-03-02,Taranaki Region,15.1
+2020-03-02,Tasman Region,3.11
+2020-03-02,Waikato Region,16.59
+2020-03-02,Wellington Region,28.87
+2020-03-02,West Coast Region,-9.47
+2020-03-03,Auckland Region,44.43
+2020-03-03,Bay of Plenty Region,17.17
+2020-03-03,Canterbury Region,20.24
+2020-03-03,Gisborne Region,-4.2
+2020-03-03,Hawke's Bay Region,23.71
+2020-03-03,Manawatu-Wanganui Region,25.82
+2020-03-03,Marlborough Region,24.68
+2020-03-03,Nelson Region,10.74
+2020-03-03,Northland Region,-2.64
+2020-03-03,Otago Region,20.94
+2020-03-03,Southland Region,12.43
+2020-03-03,Taranaki Region,11.96
+2020-03-03,Tasman Region,17.81
+2020-03-03,Waikato Region,19.31
+2020-03-03,Wellington Region,33.87
+2020-03-03,West Coast Region,-8.47
+2020-03-04,Auckland Region,42.87
+2020-03-04,Bay of Plenty Region,19.59
+2020-03-04,Canterbury Region,22.63
+2020-03-04,Gisborne Region,3.04
+2020-03-04,Hawke's Bay Region,22.45
+2020-03-04,Manawatu-Wanganui Region,24.44
+2020-03-04,Marlborough Region,24.64
+2020-03-04,Nelson Region,15.23
+2020-03-04,Northland Region,-6.18
+2020-03-04,Otago Region,23.3
+2020-03-04,Southland Region,12.72
+2020-03-04,Taranaki Region,12.49
+2020-03-04,Tasman Region,9.9
+2020-03-04,Waikato Region,22.08
+2020-03-04,Wellington Region,36.85
+2020-03-04,West Coast Region,-13.17
+2020-03-05,Auckland Region,37.76
+2020-03-05,Bay of Plenty Region,17.58
+2020-03-05,Canterbury Region,20.52
+2020-03-05,Gisborne Region,-3.47
+2020-03-05,Hawke's Bay Region,22.81
+2020-03-05,Manawatu-Wanganui Region,27.53
+2020-03-05,Marlborough Region,28.99
+2020-03-05,Nelson Region,17.43
+2020-03-05,Northland Region,-3.55
+2020-03-05,Otago Region,22.42
+2020-03-05,Southland Region,13.8
+2020-03-05,Taranaki Region,10.98
+2020-03-05,Tasman Region,8.73
+2020-03-05,Waikato Region,19.26
+2020-03-05,Wellington Region,34.63
+2020-03-05,West Coast Region,-19.26
+2020-03-06,Auckland Region,37.15
+2020-03-06,Bay of Plenty Region,15.69
+2020-03-06,Canterbury Region,17.79
+2020-03-06,Gisborne Region,-1.08
+2020-03-06,Hawke's Bay Region,23.92
+2020-03-06,Manawatu-Wanganui Region,26.43
+2020-03-06,Marlborough Region,33.85
+2020-03-06,Nelson Region,-12.26
+2020-03-06,Northland Region,-4.2
+2020-03-06,Otago Region,10.84
+2020-03-06,Southland Region,10.81
+2020-03-06,Taranaki Region,3.69
+2020-03-06,Tasman Region,5.02
+2020-03-06,Waikato Region,22.16
+2020-03-06,Wellington Region,34.02
+2020-03-06,West Coast Region,-4.58
+2020-03-07,Auckland Region,19.29
+2020-03-07,Bay of Plenty Region,18.68
+2020-03-07,Canterbury Region,19.36
+2020-03-07,Gisborne Region,-17.94
+2020-03-07,Hawke's Bay Region,20.63
+2020-03-07,Manawatu-Wanganui Region,18.39
+2020-03-07,Marlborough Region,35.24
+2020-03-07,Nelson Region,-18.27
+2020-03-07,Northland Region,-14.68
+2020-03-07,Otago Region,23.3
+2020-03-07,Southland Region,10.93
+2020-03-07,Taranaki Region,6.57
+2020-03-07,Tasman Region,0.33
+2020-03-07,Waikato Region,21.04
+2020-03-07,Wellington Region,47.53
+2020-03-07,West Coast Region,-0.34
+2020-03-08,Auckland Region,35.45
+2020-03-08,Bay of Plenty Region,18.68
+2020-03-08,Canterbury Region,17.85
+2020-03-08,Gisborne Region,-13.39
+2020-03-08,Hawke's Bay Region,35.65
+2020-03-08,Manawatu-Wanganui Region,16.87
+2020-03-08,Marlborough Region,50.27
+2020-03-08,Nelson Region,10.21
+2020-03-08,Northland Region,-6.02
+2020-03-08,Otago Region,0.22
+2020-03-08,Southland Region,12.51
+2020-03-08,Taranaki Region,9.49
+2020-03-08,Tasman Region,17.33
+2020-03-08,Waikato Region,29.98
+2020-03-08,Wellington Region,42.3
+2020-03-08,West Coast Region,7.26
+2020-03-09,Auckland Region,29.84
+2020-03-09,Bay of Plenty Region,18.96
+2020-03-09,Canterbury Region,11.68
+2020-03-09,Gisborne Region,-0.53
+2020-03-09,Hawke's Bay Region,24.43
+2020-03-09,Manawatu-Wanganui Region,21.08
+2020-03-09,Marlborough Region,21.71
+2020-03-09,Nelson Region,-10.13
+2020-03-09,Northland Region,-5.42
+2020-03-09,Otago Region,4.88
+2020-03-09,Southland Region,9.55
+2020-03-09,Taranaki Region,-37.1
+2020-03-09,Tasman Region,-1.58
+2020-03-09,Waikato Region,20.01
+2020-03-09,Wellington Region,26.03
+2020-03-09,West Coast Region,-6.32
+2020-03-10,Auckland Region,40.48
+2020-03-10,Bay of Plenty Region,21.68
+2020-03-10,Canterbury Region,15.15
+2020-03-10,Gisborne Region,-5.68
+2020-03-10,Hawke's Bay Region,21.96
+2020-03-10,Manawatu-Wanganui Region,22.39
+2020-03-10,Marlborough Region,15.01
+2020-03-10,Nelson Region,-14.31
+2020-03-10,Northland Region,-7.9
+2020-03-10,Otago Region,7.36
+2020-03-10,Southland Region,8.73
+2020-03-10,Taranaki Region,13.06
+2020-03-10,Tasman Region,-3.29
+2020-03-10,Waikato Region,25.74
+2020-03-10,Wellington Region,33.86
+2020-03-10,West Coast Region,-9.91
+2020-03-11,Auckland Region,42.64
+2020-03-11,Bay of Plenty Region,23.21
+2020-03-11,Canterbury Region,16.68
+2020-03-11,Gisborne Region,-0.74
+2020-03-11,Hawke's Bay Region,21.66
+2020-03-11,Manawatu-Wanganui Region,28.2
+2020-03-11,Marlborough Region,18.01
+2020-03-11,Nelson Region,-13.2
+2020-03-11,Northland Region,-7.78
+2020-03-11,Otago Region,8.84
+2020-03-11,Southland Region,14.24
+2020-03-11,Taranaki Region,10.86
+2020-03-11,Tasman Region,6.07
+2020-03-11,Waikato Region,27.61
+2020-03-11,Wellington Region,35.92
+2020-03-11,West Coast Region,-8.88
+2020-03-12,Auckland Region,40.21
+2020-03-12,Bay of Plenty Region,19.09
+2020-03-12,Canterbury Region,12.79
+2020-03-12,Gisborne Region,-5.69
+2020-03-12,Hawke's Bay Region,23.84
+2020-03-12,Manawatu-Wanganui Region,24.97
+2020-03-12,Marlborough Region,28.26
+2020-03-12,Nelson Region,-9.75
+2020-03-12,Northland Region,-8.25
+2020-03-12,Otago Region,11.94
+2020-03-12,Southland Region,9.91
+2020-03-12,Taranaki Region,10.92
+2020-03-12,Tasman Region,5.17
+2020-03-12,Waikato Region,24.91
+2020-03-12,Wellington Region,34.95
+2020-03-12,West Coast Region,-13.07
+2020-03-13,Auckland Region,37.87
+2020-03-13,Bay of Plenty Region,14.81
+2020-03-13,Canterbury Region,17.18
+2020-03-13,Gisborne Region,2.25
+2020-03-13,Hawke's Bay Region,26.13
+2020-03-13,Manawatu-Wanganui Region,23.9
+2020-03-13,Marlborough Region,58.92
+2020-03-13,Nelson Region,-12.88
+2020-03-13,Northland Region,-5.95
+2020-03-13,Otago Region,12.96
+2020-03-13,Southland Region,12.48
+2020-03-13,Taranaki Region,27.38
+2020-03-13,Tasman Region,1.24
+2020-03-13,Waikato Region,25.71
+2020-03-13,Wellington Region,33.43
+2020-03-13,West Coast Region,-7.78
+2020-03-14,Auckland Region,28.19
+2020-03-14,Bay of Plenty Region,13.19
+2020-03-14,Canterbury Region,11.52
+2020-03-14,Gisborne Region,-0.95
+2020-03-14,Hawke's Bay Region,35.32
+2020-03-14,Manawatu-Wanganui Region,26.39
+2020-03-14,Marlborough Region,49.24
+2020-03-14,Nelson Region,-7.79
+2020-03-14,Northland Region,-11.13
+2020-03-14,Otago Region,10.39
+2020-03-14,Southland Region,23.3
+2020-03-14,Taranaki Region,30.49
+2020-03-14,Tasman Region,9.25
+2020-03-14,Waikato Region,16.76
+2020-03-14,Wellington Region,28.88
+2020-03-14,West Coast Region,-7.77
+2020-03-15,Auckland Region,22.38
+2020-03-15,Bay of Plenty Region,13.77
+2020-03-15,Canterbury Region,13.13
+2020-03-15,Gisborne Region,2.04
+2020-03-15,Hawke's Bay Region,45.5
+2020-03-15,Manawatu-Wanganui Region,20.76
+2020-03-15,Marlborough Region,37.42
+2020-03-15,Nelson Region,-29.9
+2020-03-15,Northland Region,-6.99
+2020-03-15,Otago Region,18.7
+2020-03-15,Southland Region,14.59
+2020-03-15,Taranaki Region,27.07
+2020-03-15,Tasman Region,6.73
+2020-03-15,Waikato Region,31.58
+2020-03-15,Wellington Region,30.83
+2020-03-15,West Coast Region,-6
+2020-03-16,Auckland Region,26.05
+2020-03-16,Bay of Plenty Region,14.89
+2020-03-16,Canterbury Region,9.38
+2020-03-16,Gisborne Region,-3.57
+2020-03-16,Hawke's Bay Region,21.55
+2020-03-16,Manawatu-Wanganui Region,21.53
+2020-03-16,Marlborough Region,25.4
+2020-03-16,Nelson Region,-14.54
+2020-03-16,Northland Region,-7.47
+2020-03-16,Otago Region,3.06
+2020-03-16,Southland Region,3.18
+2020-03-16,Taranaki Region,13.4
+2020-03-16,Tasman Region,-3.09
+2020-03-16,Waikato Region,15.1
+2020-03-16,Wellington Region,24.48
+2020-03-16,West Coast Region,-3.62
+2020-03-17,Auckland Region,29.7
+2020-03-17,Bay of Plenty Region,14.43
+2020-03-17,Canterbury Region,10.33
+2020-03-17,Gisborne Region,-6.83
+2020-03-17,Hawke's Bay Region,19.64
+2020-03-17,Manawatu-Wanganui Region,21.82
+2020-03-17,Marlborough Region,15.73
+2020-03-17,Nelson Region,-14.88
+2020-03-17,Northland Region,-6.99
+2020-03-17,Otago Region,2.56
+2020-03-17,Southland Region,6.91
+2020-03-17,Taranaki Region,8.9
+2020-03-17,Tasman Region,-1.55
+2020-03-17,Waikato Region,18.25
+2020-03-17,Wellington Region,25.07
+2020-03-17,West Coast Region,-3.43
+2020-03-18,Auckland Region,27.29
+2020-03-18,Bay of Plenty Region,14.43
+2020-03-18,Canterbury Region,10.68
+2020-03-18,Gisborne Region,-5.69
+2020-03-18,Hawke's Bay Region,17.24
+2020-03-18,Manawatu-Wanganui Region,22.24
+2020-03-18,Marlborough Region,13.49
+2020-03-18,Nelson Region,-10.91
+2020-03-18,Northland Region,-10.16
+2020-03-18,Otago Region,0.1
+2020-03-18,Southland Region,7.18
+2020-03-18,Taranaki Region,9.52
+2020-03-18,Tasman Region,0.99
+2020-03-18,Waikato Region,16.97
+2020-03-18,Wellington Region,23.53
+2020-03-18,West Coast Region,-13.4
+2020-03-19,Auckland Region,24.5
+2020-03-19,Bay of Plenty Region,12.77
+2020-03-19,Canterbury Region,7.96
+2020-03-19,Gisborne Region,-9.58
+2020-03-19,Hawke's Bay Region,19.45
+2020-03-19,Manawatu-Wanganui Region,22.81
+2020-03-19,Marlborough Region,10.59
+2020-03-19,Nelson Region,-12.21
+2020-03-19,Northland Region,-11.51
+2020-03-19,Otago Region,-1.97
+2020-03-19,Southland Region,2.92
+2020-03-19,Taranaki Region,7.85
+2020-03-19,Tasman Region,-1.08
+2020-03-19,Waikato Region,13.55
+2020-03-19,Wellington Region,18.91
+2020-03-19,West Coast Region,-14.88
+2020-03-20,Auckland Region,24.36
+2020-03-20,Bay of Plenty Region,10.37
+2020-03-20,Canterbury Region,7.31
+2020-03-20,Gisborne Region,-7.57
+2020-03-20,Hawke's Bay Region,16.99
+2020-03-20,Manawatu-Wanganui Region,16.77
+2020-03-20,Marlborough Region,4
+2020-03-20,Nelson Region,-17.42
+2020-03-20,Northland Region,-6.37
+2020-03-20,Otago Region,-5.93
+2020-03-20,Southland Region,-1.98
+2020-03-20,Taranaki Region,2.29
+2020-03-20,Tasman Region,-5.87
+2020-03-20,Waikato Region,10.51
+2020-03-20,Wellington Region,13.54
+2020-03-20,West Coast Region,-15.5
+2020-03-21,Auckland Region,-3.54
+2020-03-21,Bay of Plenty Region,-5.83
+2020-03-21,Canterbury Region,-12.51
+2020-03-21,Gisborne Region,-21.8
+2020-03-21,Hawke's Bay Region,5.2
+2020-03-21,Manawatu-Wanganui Region,0.9
+2020-03-21,Marlborough Region,13.88
+2020-03-21,Nelson Region,-28.19
+2020-03-21,Northland Region,-19.57
+2020-03-21,Otago Region,-25.88
+2020-03-21,Southland Region,-16.66
+2020-03-21,Taranaki Region,-14.15
+2020-03-21,Tasman Region,-13.7
+2020-03-21,Waikato Region,-3.94
+2020-03-21,Wellington Region,0.74
+2020-03-21,West Coast Region,-23.54
+2020-03-22,Auckland Region,-5.72
+2020-03-22,Bay of Plenty Region,-4.02
+2020-03-22,Canterbury Region,-5.86
+2020-03-22,Gisborne Region,-17.37
+2020-03-22,Hawke's Bay Region,4.04
+2020-03-22,Manawatu-Wanganui Region,-1.84
+2020-03-22,Marlborough Region,11.54
+2020-03-22,Nelson Region,-28.24
+2020-03-22,Northland Region,-15.83
+2020-03-22,Otago Region,-18.76
+2020-03-22,Southland Region,-19.5
+2020-03-22,Taranaki Region,-13.35
+2020-03-22,Tasman Region,-13.42
+2020-03-22,Waikato Region,-3.23
+2020-03-22,Wellington Region,3.07
+2020-03-22,West Coast Region,-32.07
+2020-03-23,Auckland Region,26.88
+2020-03-23,Bay of Plenty Region,5.56
+2020-03-23,Canterbury Region,-0.87
+2020-03-23,Gisborne Region,-2.28
+2020-03-23,Hawke's Bay Region,16.5
+2020-03-23,Manawatu-Wanganui Region,18.36
+2020-03-23,Marlborough Region,4.44
+2020-03-23,Nelson Region,-13.42
+2020-03-23,Northland Region,10.19
+2020-03-23,Otago Region,-30.15
+2020-03-23,Southland Region,-3.65
+2020-03-23,Taranaki Region,4.35
+2020-03-23,Tasman Region,-4.63
+2020-03-23,Waikato Region,-1.12
+2020-03-23,Wellington Region,-9.47
+2020-03-23,West Coast Region,-17.78
+2020-03-24,Auckland Region,-14.76
+2020-03-24,Bay of Plenty Region,-18.15
+2020-03-24,Canterbury Region,-15.55
+2020-03-24,Gisborne Region,-19.65
+2020-03-24,Hawke's Bay Region,-6.12
+2020-03-24,Manawatu-Wanganui Region,-4.89
+2020-03-24,Marlborough Region,-11.67
+2020-03-24,Nelson Region,-32.18
+2020-03-24,Northland Region,-14.27
+2020-03-24,Otago Region,-17.09
+2020-03-24,Southland Region,-14.11
+2020-03-24,Taranaki Region,-20.9
+2020-03-24,Tasman Region,-14.97
+2020-03-24,Waikato Region,-18.61
+2020-03-24,Wellington Region,-36.66
+2020-03-24,West Coast Region,-20.3
+2020-03-25,Auckland Region,-29.36
+2020-03-25,Bay of Plenty Region,-30.3
+2020-03-25,Canterbury Region,-31.37
+2020-03-25,Gisborne Region,-26.12
+2020-03-25,Hawke's Bay Region,-20.77
+2020-03-25,Manawatu-Wanganui Region,-16.7
+2020-03-25,Marlborough Region,-13.45
+2020-03-25,Nelson Region,-34.06
+2020-03-25,Northland Region,-21.99
+2020-03-25,Otago Region,-31.69
+2020-03-25,Southland Region,-27.6
+2020-03-25,Taranaki Region,-29.71
+2020-03-25,Tasman Region,-28.94
+2020-03-25,Waikato Region,-31.21
+2020-03-25,Wellington Region,-47.87
+2020-03-25,West Coast Region,-33.6
+2020-03-26,Auckland Region,-17.66
+2020-03-26,Bay of Plenty Region,-37.7
+2020-03-26,Canterbury Region,-35.25
+2020-03-26,Gisborne Region,-50.28
+2020-03-26,Hawke's Bay Region,-45.07
+2020-03-26,Manawatu-Wanganui Region,-46.12
+2020-03-26,Marlborough Region,-9.18
+2020-03-26,Nelson Region,-38.7
+2020-03-26,Northland Region,-48.2
+2020-03-26,Otago Region,-27.49
+2020-03-26,Southland Region,-45.77
+2020-03-26,Taranaki Region,-58
+2020-03-26,Tasman Region,-15.54
+2020-03-26,Waikato Region,-34.85
+2020-03-26,Wellington Region,-57.3
+2020-03-26,West Coast Region,-37.81
+2020-03-27,Auckland Region,-52.06
+2020-03-27,Bay of Plenty Region,-51.1
+2020-03-27,Canterbury Region,-56.47
+2020-03-27,Gisborne Region,-50.51
+2020-03-27,Hawke's Bay Region,-43.37
+2020-03-27,Manawatu-Wanganui Region,-46.95
+2020-03-27,Marlborough Region,-30.43
+2020-03-27,Nelson Region,-55.89
+2020-03-27,Northland Region,-47.67
+2020-03-27,Otago Region,-54.28
+2020-03-27,Southland Region,-54.07
+2020-03-27,Taranaki Region,-60.95
+2020-03-27,Tasman Region,-43.9
+2020-03-27,Waikato Region,-51.03
+2020-03-27,Wellington Region,-62.36
+2020-03-27,West Coast Region,-52.97
+2020-03-28,Auckland Region,-37.29
+2020-03-28,Bay of Plenty Region,-43.52
+2020-03-28,Canterbury Region,-46.28
+2020-03-28,Gisborne Region,-46.38
+2020-03-28,Hawke's Bay Region,-38.47
+2020-03-28,Manawatu-Wanganui Region,-36.24
+2020-03-28,Marlborough Region,-29.89
+2020-03-28,Nelson Region,-54.87
+2020-03-28,Northland Region,-38.41
+2020-03-28,Otago Region,-48.15
+2020-03-28,Southland Region,-47.64
+2020-03-28,Taranaki Region,-54.44
+2020-03-28,Tasman Region,-29.12
+2020-03-28,Waikato Region,-41.67
+2020-03-28,Wellington Region,-45.44
+2020-03-28,West Coast Region,-51.84
+2020-03-29,Auckland Region,-32.59
+2020-03-29,Bay of Plenty Region,-42
+2020-03-29,Canterbury Region,-45.83
+2020-03-29,Gisborne Region,-41.17
+2020-03-29,Hawke's Bay Region,-34.22
+2020-03-29,Manawatu-Wanganui Region,-34.27
+2020-03-29,Marlborough Region,-27.68
+2020-03-29,Nelson Region,-42.37
+2020-03-29,Northland Region,-28.32
+2020-03-29,Otago Region,-44.31
+2020-03-29,Southland Region,-45.38
+2020-03-29,Taranaki Region,-48.27
+2020-03-29,Tasman Region,-32.13
+2020-03-29,Waikato Region,-43.7
+2020-03-29,Wellington Region,-40.12
+2020-03-29,West Coast Region,-53.25
+2020-03-30,Auckland Region,-57.28
+2020-03-30,Bay of Plenty Region,-52.79
+2020-03-30,Canterbury Region,-58.67
+2020-03-30,Gisborne Region,-47.83
+2020-03-30,Hawke's Bay Region,-46.69
+2020-03-30,Manawatu-Wanganui Region,-45.31
+2020-03-30,Marlborough Region,-30.33
+2020-03-30,Nelson Region,-57.32
+2020-03-30,Northland Region,-43.76
+2020-03-30,Otago Region,-51.82
+2020-03-30,Southland Region,-51.53
+2020-03-30,Taranaki Region,-58.99
+2020-03-30,Tasman Region,-45.64
+2020-03-30,Waikato Region,-49.5
+2020-03-30,Wellington Region,-65.78
+2020-03-30,West Coast Region,-52.17
+2020-03-31,Auckland Region,-53.41
+2020-03-31,Bay of Plenty Region,-52.18
+2020-03-31,Canterbury Region,-56.93
+2020-03-31,Gisborne Region,-53.94
+2020-03-31,Hawke's Bay Region,-46.14
+2020-03-31,Manawatu-Wanganui Region,-45.87
+2020-03-31,Marlborough Region,-32.7
+2020-03-31,Nelson Region,-58.54
+2020-03-31,Northland Region,-45.15
+2020-03-31,Otago Region,-53.18
+2020-03-31,Southland Region,-51.28
+2020-03-31,Taranaki Region,-56.51
+2020-03-31,Tasman Region,-48.02
+2020-03-31,Waikato Region,-48.34
+2020-03-31,Wellington Region,-64.97
+2020-03-31,West Coast Region,-55.54
+2020-04-01,Auckland Region,-52.01
+2020-04-01,Bay of Plenty Region,-50.21
+2020-04-01,Canterbury Region,-56.3
+2020-04-01,Gisborne Region,-47.55
+2020-04-01,Hawke's Bay Region,-45.3
+2020-04-01,Manawatu-Wanganui Region,-44.13
+2020-04-01,Marlborough Region,-31.6
+2020-04-01,Nelson Region,-56.37
+2020-04-01,Northland Region,-46.18
+2020-04-01,Otago Region,-51.96
+2020-04-01,Southland Region,-51.35
+2020-04-01,Taranaki Region,-59.01
+2020-04-01,Tasman Region,-45.11
+2020-04-01,Waikato Region,-47.35
+2020-04-01,Wellington Region,-62.81
+2020-04-01,West Coast Region,-54.04
+2020-04-02,Auckland Region,-50.92
+2020-04-02,Bay of Plenty Region,-51.57
+2020-04-02,Canterbury Region,-53.81
+2020-04-02,Gisborne Region,-47.2
+2020-04-02,Hawke's Bay Region,-41.48
+2020-04-02,Manawatu-Wanganui Region,-42.86
+2020-04-02,Marlborough Region,-30.17
+2020-04-02,Nelson Region,-53.79
+2020-04-02,Northland Region,-44.17
+2020-04-02,Otago Region,-48.72
+2020-04-02,Southland Region,-50.09
+2020-04-02,Taranaki Region,-58.57
+2020-04-02,Tasman Region,-46.71
+2020-04-02,Waikato Region,-47.67
+2020-04-02,Wellington Region,-62.82
+2020-04-02,West Coast Region,-47.92
+2020-04-03,Auckland Region,-46.95
+2020-04-03,Bay of Plenty Region,-47.62
+2020-04-03,Canterbury Region,-51.33
+2020-04-03,Gisborne Region,-42.17
+2020-04-03,Hawke's Bay Region,-42.88
+2020-04-03,Manawatu-Wanganui Region,-41.35
+2020-04-03,Marlborough Region,-27.78
+2020-04-03,Nelson Region,-48.23
+2020-04-03,Northland Region,-43.71
+2020-04-03,Otago Region,-48.47
+2020-04-03,Southland Region,-47.77
+2020-04-03,Taranaki Region,-58.22
+2020-04-03,Tasman Region,-44.32
+2020-04-03,Waikato Region,-47.25
+2020-04-03,Wellington Region,-59.59
+2020-04-03,West Coast Region,-49.44
+2020-04-04,Auckland Region,-31.21
+2020-04-04,Bay of Plenty Region,-40.29
+2020-04-04,Canterbury Region,-42.13
+2020-04-04,Gisborne Region,-41.03
+2020-04-04,Hawke's Bay Region,-36.37
+2020-04-04,Manawatu-Wanganui Region,-32.96
+2020-04-04,Marlborough Region,-26.59
+2020-04-04,Nelson Region,-44.17
+2020-04-04,Northland Region,-38.01
+2020-04-04,Otago Region,-43.26
+2020-04-04,Southland Region,-44.17
+2020-04-04,Taranaki Region,-49.43
+2020-04-04,Tasman Region,-33.4
+2020-04-04,Waikato Region,-38.64
+2020-04-04,Wellington Region,-39.16
+2020-04-04,West Coast Region,-51.07
+2020-04-05,Auckland Region,-26.77
+2020-04-05,Bay of Plenty Region,-36.71
+2020-04-05,Canterbury Region,-38.32
+2020-04-05,Gisborne Region,-33.51
+2020-04-05,Hawke's Bay Region,-30.51
+2020-04-05,Manawatu-Wanganui Region,-27.85
+2020-04-05,Marlborough Region,-23.67
+2020-04-05,Nelson Region,-30.94
+2020-04-05,Northland Region,-24.69
+2020-04-05,Otago Region,-39.41
+2020-04-05,Southland Region,-42.17
+2020-04-05,Taranaki Region,-39.33
+2020-04-05,Tasman Region,-32.04
+2020-04-05,Waikato Region,-41.42
+2020-04-05,Wellington Region,-33.77
+2020-04-05,West Coast Region,-51.93
+2020-04-06,Auckland Region,-53.29
+2020-04-06,Bay of Plenty Region,-49.29
+2020-04-06,Canterbury Region,-52.7
+2020-04-06,Gisborne Region,-41.5
+2020-04-06,Hawke's Bay Region,-43.42
+2020-04-06,Manawatu-Wanganui Region,-42.29
+2020-04-06,Marlborough Region,-34.2
+2020-04-06,Nelson Region,-53.3
+2020-04-06,Northland Region,-42.43
+2020-04-06,Otago Region,-48.55
+2020-04-06,Southland Region,-51.06
+2020-04-06,Taranaki Region,-54.46
+2020-04-06,Tasman Region,-44.58
+2020-04-06,Waikato Region,-48.5
+2020-04-06,Wellington Region,-64.11
+2020-04-06,West Coast Region,-49.09
+2020-04-07,Auckland Region,-49.3
+2020-04-07,Bay of Plenty Region,-50.17
+2020-04-07,Canterbury Region,-51.6
+2020-04-07,Gisborne Region,-48.06
+2020-04-07,Hawke's Bay Region,-42.24
+2020-04-07,Manawatu-Wanganui Region,-41.11
+2020-04-07,Marlborough Region,-23.53
+2020-04-07,Nelson Region,-56.29
+2020-04-07,Northland Region,-42.85
+2020-04-07,Otago Region,-48.45
+2020-04-07,Southland Region,-52.38
+2020-04-07,Taranaki Region,-57.6
+2020-04-07,Tasman Region,-43.63
+2020-04-07,Waikato Region,-44.7
+2020-04-07,Wellington Region,-63.2
+2020-04-07,West Coast Region,-52.23
+2020-04-08,Auckland Region,-47.79
+2020-04-08,Bay of Plenty Region,-49.17
+2020-04-08,Canterbury Region,-49.6
+2020-04-08,Gisborne Region,-39.45
+2020-04-08,Hawke's Bay Region,-39.56
+2020-04-08,Manawatu-Wanganui Region,-38.47
+2020-04-08,Marlborough Region,-27.42
+2020-04-08,Nelson Region,-48.87
+2020-04-08,Northland Region,-39.52
+2020-04-08,Otago Region,-46.51
+2020-04-08,Southland Region,-48.54
+2020-04-08,Taranaki Region,-53.48
+2020-04-08,Tasman Region,-36.3
+2020-04-08,Waikato Region,-41.94
+2020-04-08,Wellington Region,-60.4
+2020-04-08,West Coast Region,-51.54
+2020-04-09,Auckland Region,-47.73
+2020-04-09,Bay of Plenty Region,-48.55
+2020-04-09,Canterbury Region,-50.69
+2020-04-09,Gisborne Region,-42.59
+2020-04-09,Hawke's Bay Region,-41.13
+2020-04-09,Manawatu-Wanganui Region,-37.29
+2020-04-09,Marlborough Region,-21.52
+2020-04-09,Nelson Region,-48.59
+2020-04-09,Northland Region,-38.91
+2020-04-09,Otago Region,-46.16
+2020-04-09,Southland Region,-49.51
+2020-04-09,Taranaki Region,-55.2
+2020-04-09,Tasman Region,-40.21
+2020-04-09,Waikato Region,-43.59
+2020-04-09,Wellington Region,-60.44
+2020-04-09,West Coast Region,-49.59
+2020-04-10,Auckland Region,-62.5
+2020-04-10,Bay of Plenty Region,-64.39
+2020-04-10,Canterbury Region,-65.18
+2020-04-10,Gisborne Region,-60.1
+2020-04-10,Hawke's Bay Region,-59.19
+2020-04-10,Manawatu-Wanganui Region,-55.87
+2020-04-10,Marlborough Region,-29.27
+2020-04-10,Nelson Region,-61.67
+2020-04-10,Northland Region,-53.92
+2020-04-10,Otago Region,-57.37
+2020-04-10,Southland Region,-63.1
+2020-04-10,Taranaki Region,-67.95
+2020-04-10,Tasman Region,-52.64
+2020-04-10,Waikato Region,-60.45
+2020-04-10,Wellington Region,-70.86
+2020-04-10,West Coast Region,-59.17
+2020-04-11,Auckland Region,-28.52
+2020-04-11,Bay of Plenty Region,-38.02
+2020-04-11,Canterbury Region,-38.38
+2020-04-11,Gisborne Region,-42.81
+2020-04-11,Hawke's Bay Region,-28.24
+2020-04-11,Manawatu-Wanganui Region,-28.89
+2020-04-11,Marlborough Region,-27.95
+2020-04-11,Nelson Region,-40.48
+2020-04-11,Northland Region,-31.19
+2020-04-11,Otago Region,-41.61
+2020-04-11,Southland Region,-41.85
+2020-04-11,Taranaki Region,-47
+2020-04-11,Tasman Region,-32.01
+2020-04-11,Waikato Region,-35.94
+2020-04-11,Wellington Region,-37.94
+2020-04-11,West Coast Region,-51.39
+2020-04-12,Auckland Region,-27.53
+2020-04-12,Bay of Plenty Region,-39.41
+2020-04-12,Canterbury Region,-39.98
+2020-04-12,Gisborne Region,-29.82
+2020-04-12,Hawke's Bay Region,-36.86
+2020-04-12,Manawatu-Wanganui Region,-30.45
+2020-04-12,Marlborough Region,-25.34
+2020-04-12,Nelson Region,-36.37
+2020-04-12,Northland Region,-29.23
+2020-04-12,Otago Region,-41.01
+2020-04-12,Southland Region,-43.24
+2020-04-12,Taranaki Region,-39.96
+2020-04-12,Tasman Region,-34.96
+2020-04-12,Waikato Region,-42.12
+2020-04-12,Wellington Region,-36.91
+2020-04-12,West Coast Region,-54.64
+2020-04-13,Auckland Region,-65.41
+2020-04-13,Bay of Plenty Region,-63.04
+2020-04-13,Canterbury Region,-65.59
+2020-04-13,Gisborne Region,-53.97
+2020-04-13,Hawke's Bay Region,-58.28
+2020-04-13,Manawatu-Wanganui Region,-54.25
+2020-04-13,Marlborough Region,-42.69
+2020-04-13,Nelson Region,-63.8
+2020-04-13,Northland Region,-52.51
+2020-04-13,Otago Region,-58.98
+2020-04-13,Southland Region,-65.3
+2020-04-13,Taranaki Region,-63.96
+2020-04-13,Tasman Region,-51.93
+2020-04-13,Waikato Region,-60.24
+2020-04-13,Wellington Region,-73.23
+2020-04-13,West Coast Region,-59.08
+2020-04-14,Auckland Region,-50.02
+2020-04-14,Bay of Plenty Region,-49.76
+2020-04-14,Canterbury Region,-52.07
+2020-04-14,Gisborne Region,-43.01
+2020-04-14,Hawke's Bay Region,-42.19
+2020-04-14,Manawatu-Wanganui Region,-42.34
+2020-04-14,Marlborough Region,-25.76
+2020-04-14,Nelson Region,-50.25
+2020-04-14,Northland Region,-42.23
+2020-04-14,Otago Region,-49.11
+2020-04-14,Southland Region,-59.33
+2020-04-14,Taranaki Region,-55.64
+2020-04-14,Tasman Region,-43.38
+2020-04-14,Waikato Region,-45.57
+2020-04-14,Wellington Region,-62.28
+2020-04-14,West Coast Region,-49.93
+2020-04-15,Auckland Region,-47.96
+2020-04-15,Bay of Plenty Region,-47.62
+2020-04-15,Canterbury Region,-51.06
+2020-04-15,Gisborne Region,-42.69
+2020-04-15,Hawke's Bay Region,-40.61
+2020-04-15,Manawatu-Wanganui Region,-39.75
+2020-04-15,Marlborough Region,-21.49
+2020-04-15,Nelson Region,-51.91
+2020-04-15,Northland Region,-38.96
+2020-04-15,Otago Region,-47.39
+2020-04-15,Southland Region,-49.49
+2020-04-15,Taranaki Region,-54.38
+2020-04-15,Tasman Region,-42.13
+2020-04-15,Waikato Region,-42.96
+2020-04-15,Wellington Region,-61.13
+2020-04-15,West Coast Region,-47.38
+2020-04-16,Auckland Region,-47.25
+2020-04-16,Bay of Plenty Region,-48.84
+2020-04-16,Canterbury Region,-50.07
+2020-04-16,Gisborne Region,-37.85
+2020-04-16,Hawke's Bay Region,-40.41
+2020-04-16,Manawatu-Wanganui Region,-39.02
+2020-04-16,Marlborough Region,-24.24
+2020-04-16,Nelson Region,-46.59
+2020-04-16,Northland Region,-41.89
+2020-04-16,Otago Region,-45.02
+2020-04-16,Southland Region,-50.84
+2020-04-16,Taranaki Region,-53.36
+2020-04-16,Tasman Region,-43.05
+2020-04-16,Waikato Region,-44.59
+2020-04-16,Wellington Region,-59.31
+2020-04-16,West Coast Region,-52.8
+2020-04-17,Auckland Region,-45.92
+2020-04-17,Bay of Plenty Region,-48.62
+2020-04-17,Canterbury Region,-51.02
+2020-04-17,Gisborne Region,-37.02
+2020-04-17,Hawke's Bay Region,-38.39
+2020-04-17,Manawatu-Wanganui Region,-40.53
+2020-04-17,Marlborough Region,-24.31
+2020-04-17,Nelson Region,-53.35
+2020-04-17,Northland Region,-40.43
+2020-04-17,Otago Region,-47.96
+2020-04-17,Southland Region,-47.91
+2020-04-17,Taranaki Region,-54.11
+2020-04-17,Tasman Region,-40.81
+2020-04-17,Waikato Region,-47.17
+2020-04-17,Wellington Region,-58.39
+2020-04-17,West Coast Region,-48.84
+2020-04-18,Auckland Region,-28.75
+2020-04-18,Bay of Plenty Region,-40.07
+2020-04-18,Canterbury Region,-37.26
+2020-04-18,Gisborne Region,-39.99
+2020-04-18,Hawke's Bay Region,-30.89
+2020-04-18,Manawatu-Wanganui Region,-32.33
+2020-04-18,Marlborough Region,-26.24
+2020-04-18,Nelson Region,-40.48
+2020-04-18,Northland Region,-34.71
+2020-04-18,Otago Region,-43.71
+2020-04-18,Southland Region,-41.87
+2020-04-18,Taranaki Region,-47.88
+2020-04-18,Tasman Region,-34.43
+2020-04-18,Waikato Region,-37.42
+2020-04-18,Wellington Region,-38.74
+2020-04-18,West Coast Region,-53.72
+2020-04-19,Auckland Region,-25.84
+2020-04-19,Bay of Plenty Region,-36.19
+2020-04-19,Canterbury Region,-38.43
+2020-04-19,Gisborne Region,-35.83
+2020-04-19,Hawke's Bay Region,-36.65
+2020-04-19,Manawatu-Wanganui Region,-30.81
+2020-04-19,Marlborough Region,-33.77
+2020-04-19,Nelson Region,-33.59
+2020-04-19,Northland Region,-27.26
+2020-04-19,Otago Region,-41.72
+2020-04-19,Southland Region,-42.87
+2020-04-19,Taranaki Region,-43.96
+2020-04-19,Tasman Region,-29.34
+2020-04-19,Waikato Region,-40.81
+2020-04-19,Wellington Region,-35.33
+2020-04-19,West Coast Region,-49.02
+2020-04-20,Auckland Region,-52.17
+2020-04-20,Bay of Plenty Region,-48.76
+2020-04-20,Canterbury Region,-52.01
+2020-04-20,Gisborne Region,-39.11
+2020-04-20,Hawke's Bay Region,-43.17
+2020-04-20,Manawatu-Wanganui Region,-42.98
+2020-04-20,Marlborough Region,-22.26
+2020-04-20,Nelson Region,-48.78
+2020-04-20,Northland Region,-40.4
+2020-04-20,Otago Region,-46.56
+2020-04-20,Southland Region,-45.38
+2020-04-20,Taranaki Region,-51.78
+2020-04-20,Tasman Region,-42.59
+2020-04-20,Waikato Region,-45.78
+2020-04-20,Wellington Region,-63.5
+2020-04-20,West Coast Region,-48.41
+2020-04-21,Auckland Region,-47.3
+2020-04-21,Bay of Plenty Region,-48.16
+2020-04-21,Canterbury Region,-49.28
+2020-04-21,Gisborne Region,-45.56
+2020-04-21,Hawke's Bay Region,-38.1
+2020-04-21,Manawatu-Wanganui Region,-39.05
+2020-04-21,Marlborough Region,-18.14
+2020-04-21,Nelson Region,-54.4
+2020-04-21,Northland Region,-42.23
+2020-04-21,Otago Region,-44.47
+2020-04-21,Southland Region,-45.09
+2020-04-21,Taranaki Region,-53.91
+2020-04-21,Tasman Region,-38.09
+2020-04-21,Waikato Region,-43.35
+2020-04-21,Wellington Region,-60.03
+2020-04-21,West Coast Region,-49.09
+2020-04-22,Auckland Region,-44.89
+2020-04-22,Bay of Plenty Region,-45.68
+2020-04-22,Canterbury Region,-47.94
+2020-04-22,Gisborne Region,-40.86
+2020-04-22,Hawke's Bay Region,-38.76
+2020-04-22,Manawatu-Wanganui Region,-37.52
+2020-04-22,Marlborough Region,-16.08
+2020-04-22,Nelson Region,-46.85
+2020-04-22,Northland Region,-37.4
+2020-04-22,Otago Region,-43.63
+2020-04-22,Southland Region,-45.82
+2020-04-22,Taranaki Region,-51.86
+2020-04-22,Tasman Region,-35.21
+2020-04-22,Waikato Region,-41.2
+2020-04-22,Wellington Region,-58.22
+2020-04-22,West Coast Region,-48.85
+2020-04-23,Auckland Region,-44.1
+2020-04-23,Bay of Plenty Region,-43.94
+2020-04-23,Canterbury Region,-46.72
+2020-04-23,Gisborne Region,-38.66
+2020-04-23,Hawke's Bay Region,-38.53
+2020-04-23,Manawatu-Wanganui Region,-36.67
+2020-04-23,Marlborough Region,-21.7
+2020-04-23,Nelson Region,-46.92
+2020-04-23,Northland Region,-39.07
+2020-04-23,Otago Region,-43.13
+2020-04-23,Southland Region,-45.74
+2020-04-23,Taranaki Region,-51.25
+2020-04-23,Tasman Region,-41.9
+2020-04-23,Waikato Region,-39.46
+2020-04-23,Wellington Region,-59
+2020-04-23,West Coast Region,-47.98
+2020-04-24,Auckland Region,-40.48
+2020-04-24,Bay of Plenty Region,-42.73
+2020-04-24,Canterbury Region,-44.69
+2020-04-24,Gisborne Region,-36.53
+2020-04-24,Hawke's Bay Region,-35.08
+2020-04-24,Manawatu-Wanganui Region,-37.28
+2020-04-24,Marlborough Region,-17.15
+2020-04-24,Nelson Region,-45.67
+2020-04-24,Northland Region,-38.06
+2020-04-24,Otago Region,-44.59
+2020-04-24,Southland Region,-43.52
+2020-04-24,Taranaki Region,-49.77
+2020-04-24,Tasman Region,-39.07
+2020-04-24,Waikato Region,-40.8
+2020-04-24,Wellington Region,-56.49
+2020-04-24,West Coast Region,-46.94
+2020-04-25,Auckland Region,-27.06
+2020-04-25,Bay of Plenty Region,-38.62
+2020-04-25,Canterbury Region,-38.01
+2020-04-25,Gisborne Region,-43.58
+2020-04-25,Hawke's Bay Region,-34.37
+2020-04-25,Manawatu-Wanganui Region,-33.92
+2020-04-25,Marlborough Region,-23.55
+2020-04-25,Nelson Region,-41.35
+2020-04-25,Northland Region,-31.46
+2020-04-25,Otago Region,-43.93
+2020-04-25,Southland Region,-42.74
+2020-04-25,Taranaki Region,-48.82
+2020-04-25,Tasman Region,-30.27
+2020-04-25,Waikato Region,-35.81
+2020-04-25,Wellington Region,-38.27
+2020-04-25,West Coast Region,-52.13
+2020-04-26,Auckland Region,-20.59
+2020-04-26,Bay of Plenty Region,-30.65
+2020-04-26,Canterbury Region,-34.93
+2020-04-26,Gisborne Region,-25.64
+2020-04-26,Hawke's Bay Region,-35.11
+2020-04-26,Manawatu-Wanganui Region,-25.4
+2020-04-26,Marlborough Region,-23.04
+2020-04-26,Nelson Region,-24.47
+2020-04-26,Northland Region,-23.76
+2020-04-26,Otago Region,-40.24
+2020-04-26,Southland Region,-37.53
+2020-04-26,Taranaki Region,-38.67
+2020-04-26,Tasman Region,-27.78
+2020-04-26,Waikato Region,-36.62
+2020-04-26,Wellington Region,-31.54
+2020-04-26,West Coast Region,-53.12
+2020-04-27,Auckland Region,-61.25
+2020-04-27,Bay of Plenty Region,-58.13
+2020-04-27,Canterbury Region,-61.78
+2020-04-27,Gisborne Region,-52.12
+2020-04-27,Hawke's Bay Region,-52.88
+2020-04-27,Manawatu-Wanganui Region,-51.12
+2020-04-27,Marlborough Region,-36.81
+2020-04-27,Nelson Region,-52.09
+2020-04-27,Northland Region,-47.49
+2020-04-27,Otago Region,-53.23
+2020-04-27,Southland Region,-58.12
+2020-04-27,Taranaki Region,-59.58
+2020-04-27,Tasman Region,-49.05
+2020-04-27,Waikato Region,-54.66
+2020-04-27,Wellington Region,-70.39
+2020-04-27,West Coast Region,-59.08
+2020-04-28,Auckland Region,-22.36
+2020-04-28,Bay of Plenty Region,-21.54
+2020-04-28,Canterbury Region,-23.8
+2020-04-28,Gisborne Region,-24.19
+2020-04-28,Hawke's Bay Region,-19.18
+2020-04-28,Manawatu-Wanganui Region,-19.06
+2020-04-28,Marlborough Region,0.84
+2020-04-28,Nelson Region,-15.18
+2020-04-28,Northland Region,-21.53
+2020-04-28,Otago Region,-24.33
+2020-04-28,Southland Region,-27.46
+2020-04-28,Taranaki Region,-33.89
+2020-04-28,Tasman Region,-12.87
+2020-04-28,Waikato Region,-16.43
+2020-04-28,Wellington Region,-44.98
+2020-04-28,West Coast Region,-33.79
+2020-04-29,Auckland Region,-19.39
+2020-04-29,Bay of Plenty Region,-22.91
+2020-04-29,Canterbury Region,-22.1
+2020-04-29,Gisborne Region,-18.38
+2020-04-29,Hawke's Bay Region,-16.4
+2020-04-29,Manawatu-Wanganui Region,-16.56
+2020-04-29,Marlborough Region,3.22
+2020-04-29,Nelson Region,-18.88
+2020-04-29,Northland Region,-18.56
+2020-04-29,Otago Region,-23.31
+2020-04-29,Southland Region,-23.35
+2020-04-29,Taranaki Region,-29.55
+2020-04-29,Tasman Region,-12.32
+2020-04-29,Waikato Region,-17.76
+2020-04-29,Wellington Region,-43.16
+2020-04-29,West Coast Region,-31.14
+2020-04-30,Auckland Region,-20.38
+2020-04-30,Bay of Plenty Region,-22.58
+2020-04-30,Canterbury Region,-21.94
+2020-04-30,Gisborne Region,-20.46
+2020-04-30,Hawke's Bay Region,-19.92
+2020-04-30,Manawatu-Wanganui Region,-19
+2020-04-30,Marlborough Region,4.18
+2020-04-30,Nelson Region,-12.87
+2020-04-30,Northland Region,-22.08
+2020-04-30,Otago Region,-21.93
+2020-04-30,Southland Region,-25.3
+2020-04-30,Taranaki Region,-32.41
+2020-04-30,Tasman Region,-14.73
+2020-04-30,Waikato Region,-18.27
+2020-04-30,Wellington Region,-44.48
+2020-04-30,West Coast Region,-34.23
+2020-05-01,Auckland Region,-23.21
+2020-05-01,Bay of Plenty Region,-26.68
+2020-05-01,Canterbury Region,-28.59
+2020-05-01,Gisborne Region,-24.55
+2020-05-01,Hawke's Bay Region,-22.24
+2020-05-01,Manawatu-Wanganui Region,-23.13
+2020-05-01,Marlborough Region,-2.6
+2020-05-01,Nelson Region,-21.17
+2020-05-01,Northland Region,-27.7
+2020-05-01,Otago Region,-30.38
+2020-05-01,Southland Region,-23.15
+2020-05-01,Taranaki Region,-35.47
+2020-05-01,Tasman Region,-20.25
+2020-05-01,Waikato Region,-24.54
+2020-05-01,Wellington Region,-46.61
+2020-05-01,West Coast Region,-42.85
+2020-05-02,Auckland Region,-14.12
+2020-05-02,Bay of Plenty Region,-24.81
+2020-05-02,Canterbury Region,-22.76
+2020-05-02,Gisborne Region,-29.14
+2020-05-02,Hawke's Bay Region,-15.43
+2020-05-02,Manawatu-Wanganui Region,-21.41
+2020-05-02,Marlborough Region,-14.52
+2020-05-02,Nelson Region,-31.91
+2020-05-02,Northland Region,-27.63
+2020-05-02,Otago Region,-36.28
+2020-05-02,Southland Region,-29.79
+2020-05-02,Taranaki Region,-36.81
+2020-05-02,Tasman Region,-22.34
+2020-05-02,Waikato Region,-23.49
+2020-05-02,Wellington Region,-27.97
+2020-05-02,West Coast Region,-42.69
+2020-05-03,Auckland Region,-18.93
+2020-05-03,Bay of Plenty Region,-31.26
+2020-05-03,Canterbury Region,-17.39
+2020-05-03,Gisborne Region,-25.28
+2020-05-03,Hawke's Bay Region,-24.65
+2020-05-03,Manawatu-Wanganui Region,-24.36
+2020-05-03,Marlborough Region,-26.15
+2020-05-03,Nelson Region,-24.82
+2020-05-03,Northland Region,-22.86
+2020-05-03,Otago Region,-31.57
+2020-05-03,Southland Region,-30.72
+2020-05-03,Taranaki Region,-34.22
+2020-05-03,Tasman Region,-18.99
+2020-05-03,Waikato Region,-35.67
+2020-05-03,Wellington Region,-29.94
+2020-05-03,West Coast Region,-47.09
+2020-05-04,Auckland Region,-27.23
+2020-05-04,Bay of Plenty Region,-26.29
+2020-05-04,Canterbury Region,-27.27
+2020-05-04,Gisborne Region,-23.57
+2020-05-04,Hawke's Bay Region,-19.48
+2020-05-04,Manawatu-Wanganui Region,-21.53
+2020-05-04,Marlborough Region,4.58
+2020-05-04,Nelson Region,-15.22
+2020-05-04,Northland Region,-21.12
+2020-05-04,Otago Region,-27.08
+2020-05-04,Southland Region,-27.57
+2020-05-04,Taranaki Region,-31.79
+2020-05-04,Tasman Region,-20.56
+2020-05-04,Waikato Region,-21.76
+2020-05-04,Wellington Region,-47.89
+2020-05-04,West Coast Region,-36.55
+2020-05-05,Auckland Region,-21.47
+2020-05-05,Bay of Plenty Region,-24.25
+2020-05-05,Canterbury Region,-24.18
+2020-05-05,Gisborne Region,-27.69
+2020-05-05,Hawke's Bay Region,-15.75
+2020-05-05,Manawatu-Wanganui Region,-19.17
+2020-05-05,Marlborough Region,7.64
+2020-05-05,Nelson Region,-13
+2020-05-05,Northland Region,-26.27
+2020-05-05,Otago Region,-24.91
+2020-05-05,Southland Region,-24.48
+2020-05-05,Taranaki Region,-33.72
+2020-05-05,Tasman Region,-15.06
+2020-05-05,Waikato Region,-18.54
+2020-05-05,Wellington Region,-45.91
+2020-05-05,West Coast Region,-34.03
+2020-05-06,Auckland Region,-17
+2020-05-06,Bay of Plenty Region,-17.84
+2020-05-06,Canterbury Region,-20.43
+2020-05-06,Gisborne Region,-20
+2020-05-06,Hawke's Bay Region,-18.8
+2020-05-06,Manawatu-Wanganui Region,-16.06
+2020-05-06,Marlborough Region,15.93
+2020-05-06,Nelson Region,-13.47
+2020-05-06,Northland Region,-22.47
+2020-05-06,Otago Region,-21.43
+2020-05-06,Southland Region,-25.71
+2020-05-06,Taranaki Region,-30.63
+2020-05-06,Tasman Region,-11.93
+2020-05-06,Waikato Region,-16.54
+2020-05-06,Wellington Region,-42.89
+2020-05-06,West Coast Region,-32.27
+2020-05-07,Auckland Region,-19.18
+2020-05-07,Bay of Plenty Region,-4.86
+2020-05-07,Canterbury Region,-21.28
+2020-05-07,Gisborne Region,-8.59
+2020-05-07,Hawke's Bay Region,12.62
+2020-05-07,Manawatu-Wanganui Region,-15.23
+2020-05-07,Marlborough Region,14.3
+2020-05-07,Nelson Region,-12.83
+2020-05-07,Northland Region,-23.22
+2020-05-07,Otago Region,-20.23
+2020-05-07,Southland Region,-24.64
+2020-05-07,Taranaki Region,-30.36
+2020-05-07,Tasman Region,-13.4
+2020-05-07,Waikato Region,-5.75
+2020-05-07,Wellington Region,-42.85
+2020-05-07,West Coast Region,-34.39
+2020-05-08,Auckland Region,-15.16
+2020-05-08,Bay of Plenty Region,-21.12
+2020-05-08,Canterbury Region,-20.34
+2020-05-08,Gisborne Region,-18.91
+2020-05-08,Hawke's Bay Region,-14.88
+2020-05-08,Manawatu-Wanganui Region,-17.99
+2020-05-08,Marlborough Region,13.48
+2020-05-08,Nelson Region,-15
+2020-05-08,Northland Region,-22.2
+2020-05-08,Otago Region,-23.1
+2020-05-08,Southland Region,-23.83
+2020-05-08,Taranaki Region,-31.93
+2020-05-08,Tasman Region,-14.46
+2020-05-08,Waikato Region,-18.45
+2020-05-08,Wellington Region,-40.18
+2020-05-08,West Coast Region,-32.29
+2020-05-09,Auckland Region,-2.9
+2020-05-09,Bay of Plenty Region,-17.58
+2020-05-09,Canterbury Region,-17.27
+2020-05-09,Gisborne Region,-23.74
+2020-05-09,Hawke's Bay Region,-12.1
+2020-05-09,Manawatu-Wanganui Region,-19.16
+2020-05-09,Marlborough Region,1.38
+2020-05-09,Nelson Region,-9.54
+2020-05-09,Northland Region,-17.69
+2020-05-09,Otago Region,-25.69
+2020-05-09,Southland Region,-18.95
+2020-05-09,Taranaki Region,-28.57
+2020-05-09,Tasman Region,-7.4
+2020-05-09,Waikato Region,-21.27
+2020-05-09,Wellington Region,-18.09
+2020-05-09,West Coast Region,-39.22
+2020-05-10,Auckland Region,-3.27
+2020-05-10,Bay of Plenty Region,-20.18
+2020-05-10,Canterbury Region,-14.9
+2020-05-10,Gisborne Region,-13
+2020-05-10,Hawke's Bay Region,-7.85
+2020-05-10,Manawatu-Wanganui Region,-12.02
+2020-05-10,Marlborough Region,0.99
+2020-05-10,Nelson Region,-3.53
+2020-05-10,Northland Region,-9.15
+2020-05-10,Otago Region,-22.89
+2020-05-10,Southland Region,-26.04
+2020-05-10,Taranaki Region,-25.09
+2020-05-10,Tasman Region,-0.92
+2020-05-10,Waikato Region,-24.39
+2020-05-10,Wellington Region,-12.86
+2020-05-10,West Coast Region,-38.84

@@ -24,7 +24,7 @@ labelPosition <- function(vals){
   return(pos)
 }
 
-dat <- read_csv(paste0("outputs/report_",TIMESTAMP,"/data/mobility_weekly_data.csv")) %>%
+dat <- read_csv(paste0("outputs/data_",TIMESTAMP,"/mobility_weekly_data.csv")) %>%
   filter(comparison == "previous_week") %>%
   mutate(regc2018_name = gsub(" Region", "", regc2018_name),
          regc2018_name = factor(regc2018_name, levels = rev(regOrder)),
