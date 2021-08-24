@@ -1,6 +1,6 @@
 
 ############### National data ---------------------
-get_range(start='2020-03-15 00:00:00',
+get_range(start=paste(data_start, "00:00:00"),
           end=paste(period_end, "23:00:00"), 
           segment=TRUE) %>%
   as_tibble() %>%
@@ -10,12 +10,14 @@ get_range(start='2020-03-15 00:00:00',
 
 mobility_baseline_national <- get_mobility(conc = "national") %>%
   as_tibble() %>%
-  filter(year(days) == 2019) %>%
+  filter(between(days, as.Date('2021-01-01'), as.Date('2021-06-30'))) %>%
+  filter(!between(days, as.Date('2021-02-15'), as.Date('2021-02-22'))) %>% 
+  filter(!between(days, as.Date('2021-02-28'), as.Date('2021-03-07'))) %>%
   mutate(dow = wday(days, label=TRUE, week_start = getOption("lubridate.week.start", 1))) %>%
   group_by(dow) %>%
   summarise(minmax_baseline = mean(minmax))
 
-get_mobility(conc = "national", period = '2020-03-15') %>%
+get_mobility(conc = "national", period = data_start) %>%
   as_tibble() %>%
   mutate(dow = wday(days, label=TRUE, week_start = getOption("lubridate.week.start", 1))) %>%
   left_join(mobility_baseline_national, by="dow") %>%
@@ -24,7 +26,7 @@ get_mobility(conc = "national", period = '2020-03-15') %>%
     write_csv(paste0("outputs/data_", TIMESTAMP, "/mobility_national_data.csv"))
 
 ############### Sparkline data ---------------------
-get_range(start='2020-03-15 00:00:00',
+get_range(start=paste(data_start, "00:00:00"),
                  end=paste(period_end, "23:00:00")) %>%
   as_tibble() %>%
   na.omit() %>%
@@ -33,7 +35,7 @@ get_range(start='2020-03-15 00:00:00',
   group_by(sa2_type) %>%
   mutate(pop_scaled = round(as.numeric(scale(pop)), 2)) %>%
   select(-pop) %>%
-  write_csv(paste0("outputs/data_", TIMESTAMP, "/data/sparkline_data.csv"))
+  write_csv(paste0("outputs/data_", TIMESTAMP, "/sparkline_data.csv"))
 
 ############### Week plots ---------------------
 latest_weeks <- get_range(start=paste(period_start, "00:00:00"),
@@ -49,15 +51,18 @@ latest_weeks <- get_range(start=paste(period_start, "00:00:00"),
   ) %>%
   mutate(
     min_week = min(week),
-    measure = ifelse(as.Date(timestamp) %in% unique(as.Date(timestamp))[1:(length(unique(as.Date(timestamp)))/2)],
+    measure = ifelse(isoweek(as.Date(timestamp)) == isoweek(period_start),
            "baseline_week",
            "target_week")
     ) %>%
   select(sa2_type, timestamp, measure, day, hour, pop)
 
-ref_year <- get_range(start=paste(period_start - days(365 + 7), "00:00:00"),
-                      end=paste(period_end - days(365 - 7), "23:00:00")) %>%
+ref_year <- get_range(start="2021-01-01 00:00:00",
+                      end="2021-06-30 23:00:00") %>%
   as_tibble() %>%
+  filter(timestamp>='2021-01-01'& timestamp<='2021-06-30 23:00:00') %>%
+  filter(!(timestamp>='2021-02-15'& timestamp<='2021-02-22 23:00:00')) %>% 
+  filter(!(timestamp>='2021-02-28'& timestamp<='2021-03-07 23:00:00')) %>%
   na.omit() %>%
   filter(sa2_type != "Unclassified") %>%
   mutate(day = wday(timestamp, label=TRUE, week_start = getOption("lubridate.week.start", eow)),
@@ -87,14 +92,16 @@ rm(ref_year, latest_weeks)
 ## Categories
 mobility_baseline_categories <- get_mobility(conc = "sa2_type") %>%
   as_tibble() %>%
-  filter(year(days) == 2019) %>%
+  filter(between(days, as.Date('2021-01-01'), as.Date('2021-06-30'))) %>%
+  filter(!between(days, as.Date('2021-02-15'), as.Date('2021-02-22'))) %>% 
+  filter(!between(days, as.Date('2021-02-28'), as.Date('2021-03-07'))) %>%
   mutate(dow = wday(days, label=TRUE, week_start = getOption("lubridate.week.start", 1))) %>%
   group_by(sa2_type, dow) %>%
   summarise(minmax_baseline = mean(minmax))
 
 get_mobility(conc = "sa2_type", period = '2020-01-01') %>%
   as_tibble() %>%
-  filter(days > as.Date("2020-03-01") & sa2_type != "Unclassified") %>%
+  filter(days > as.Date(data_start) & sa2_type != "Unclassified") %>%
   mutate(dow = wday(days, label=TRUE, week_start = getOption("lubridate.week.start", 1))) %>%
   left_join(mobility_baseline_categories, by=c("sa2_type", "dow")) %>%
   mutate(mobility = round((minmax - minmax_baseline) / minmax_baseline * 100, 2)) %>%
@@ -104,14 +111,16 @@ get_mobility(conc = "sa2_type", period = '2020-01-01') %>%
 ## Councils
 mobility_baseline_councils <- get_mobility(conc = "council") %>%
   as_tibble() %>%
-  filter(year(days) == 2019) %>%
+  filter(between(days, as.Date('2021-01-01'), as.Date('2021-06-30'))) %>%
+  filter(!between(days, as.Date('2021-02-15'), as.Date('2021-02-22'))) %>% 
+  filter(!between(days, as.Date('2021-02-28'), as.Date('2021-03-07'))) %>%
   mutate(dow = wday(days, label=TRUE, week_start = getOption("lubridate.week.start", 1))) %>%
   group_by(regc2018_name, dow) %>%
   summarise(minmax_baseline = mean(minmax))
 
 get_mobility(conc = "council", period = '2020-01-01') %>%
   as_tibble() %>%
-  filter(days > as.Date("2020-03-01")) %>%
+  filter(days > as.Date(data_start)) %>%
   mutate(dow = wday(days, label=TRUE, week_start = getOption("lubridate.week.start", 1))) %>%
   left_join(mobility_baseline_councils, by=c("regc2018_name", "dow")) %>%
   mutate(mobility = round((minmax - minmax_baseline) / minmax_baseline * 100, 2)) %>%
@@ -122,7 +131,7 @@ get_mobility(conc = "council", period = '2020-01-01') %>%
 weekly_mobility_by_week <- get_mobility("council") %>%
   as_tibble() %>%
   filter(between(days, period_start, period_end)) %>%
-  mutate(measure = ifelse(days %in% unique(days)[1:(length(unique(days))/2)],
+  mutate(measure = ifelse(isoweek(days)== isoweek(period_start),
                           "baseline_week",
                           "target_week")) %>%
   group_by(regc2018_name, measure) %>%
@@ -135,9 +144,11 @@ weekly_mobility_by_week <- get_mobility("council") %>%
 weekly_mobility_by_year <- get_mobility("council") %>%
   as_tibble() %>%
   mutate(measure = case_when(
-    between(days, period_start - days(365 + 7), period_end - days(365 - 7)) ~ "baseline_week",
+    between(days, as.Date('2021-01-01'), as.Date('2021-06-30')) ~ "baseline_week",
     between(days, period_end - days(as.integer((epoch) / 2)), period_end) ~ "target_week"
   )) %>%
+  filter(!between(days, as.Date('2021-02-15'), as.Date('2021-02-22'))) %>% 
+  filter(!between(days, as.Date('2021-02-28'), as.Date('2021-03-07'))) %>%
   filter(!(is.na(measure))) %>%
   group_by(regc2018_name, measure) %>%
   summarise(minmax = mean(minmax)) %>%
