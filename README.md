@@ -1,6 +1,6 @@
 # Mobility index
 
-Data Ventures uses aggregated and anonymised cellphone data to estimate the amount of mobility within regional councils, or based on categories such as recreation, retail, workplace areas. This README briefly outlines how we developed our mobility index and the repository includes our code for data released on mobility for a week in lockdown relative to the week before, or relative to a similar period in 2019.
+Data Ventures uses aggregated and anonymised cellphone data to estimate the amount of mobility within regional councils, or based on categories such as recreation, retail, workplace areas. This README briefly outlines how we developed our mobility index and the repository includes our code for data released on mobility for a week in lockdown relative to the week before, or relative to normal weeks in the first half of 2021.
 
 **NB:** If you are looking for the deprecated methodology used in the easter report, the repo can still be found [here](https://github.com/dataventuresnz/easter-mobility-index).
 
@@ -22,8 +22,9 @@ We identified six categories which we report alongside regional council data: Re
 
 * We then subtract the minimum population from the maximum population count in a given day for an SA2.
 
-* We sum the deltas' in each SA2 for each category or regional council to get an overall mobility measure for the area.
+* We sum the deltas in each SA2 for each category or regional council to get an overall mobility measure for the area.
 
-* We calculate the percentage difference between each day of the observed week and an average week from 2019 (we then use this for our mobility plots).
+* We calculate the percentage difference between each day of the observed week and an average week in the first half of 2021 (we then use this for our mobility plots).
+  * Note: we previously used 2019 as a baseline for mobility in our 2020 reports. Due to updates to our population data methodology, we now use early 2021.
 
 * We then average the seven daily percentage differences to get a single mobility measure for a week in each region or category (this is used for our tables at the end of each report).
